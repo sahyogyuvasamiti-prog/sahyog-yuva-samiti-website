@@ -17,7 +17,7 @@ export default function Partner() {
         eyebrow="Partner with us"
         title="Expertise from you. Reach, trust and execution from Sahyog."
         lede="A modular portfolio lets each organization contribute within its area of expertise, while we handle local access and delivery."
-        image={img.partner}
+        image={img.aboutHero}
       />
 
       {/* Tracks */}

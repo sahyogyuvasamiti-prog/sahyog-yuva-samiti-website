@@ -8,49 +8,54 @@
 
 export const img = {
   hero: {
-    src: '/images/hero.png', // 3:2 landscape, 1800px wide or more
+    src: '/images/01hero.jpeg', // 3:2 landscape, 1800px wide or more
     // alt: 'Students taking part in a Sahyog Yuva Samiti session',
   },
+  aboutHero:{
+    src: '/images/hero.png'
+  },
+  contact:{
+    src: '/images/crowd 4.png'},
   aboutMain: {
-    src: '/images/about-main.jpg', // 4:5 portrait
+    src: '/images/02-4by5.jpg', // 4:5 portrait
     // alt: 'Volunteers setting up a community session',
   },
   aboutInset: {
-    src: '/images/about-inset.jpg', // square
+    src: '/images/Untitled design (3).jpg', // square
     // alt: 'A teacher guiding a student through course options',
   },
   vision: {
-    src: '/images/vision.jpg', // 16:10
+    src: '/images/Untitled design (4).jpg', // 16:10
     // alt: 'Young people at a school assembly',
   },
   presence: {
-    src: '/images/presence.jpg', // 16:10
+    src: '/images/Untitled design (3) (1).jpg', // 16:10
     // alt: 'Volunteers walking through a village during an outreach visit',
   },
   partner: {
-    src: '/images/partner.jpg', // 7:5
+    src: '/images/partner_wrokshop.png', // 7:5
     // alt: 'A partner trainer running a workshop with students',
   },
   impact: {
-    src: '/images/impact.jpg', // wide banner
+    src: '/images/hero.png', // wide banner
     // alt: 'A large group of young participants after a programme',
   },
   cta: {
-    src: '/images/cta.jpg', // 16:9
+    src: '/images/Untitled design (9).jpg', // 16:9
     // alt: 'Youth padyatra through a town',
   },
 }
 
 /** Program photos are keyed by the program id used in data/site.js */
 export const programImages = {
-  education: { src: '/images/education.jpg', alt: 'A career counselling session in a classroom' },
-  sports: { src: '/images/sports.jpg', alt: 'Young people playing a local sports match' },
+  education: { src: '/images/career-1.jpeg', alt: 'A career counselling session in a classroom' },
+  sports: { src: '/images/career-2.png', alt: 'Young people playing a local sports match' },
   'nasha-mukti': {
-    src: '/images/nasha-mukti.jpg',
+    src: '/images/career-3.png',
     // alt: 'Students taking a pledge during a Nasha Mukti awareness drive',
   },
   community: {
-    src: '/images/community.jpg',
+    src: '/images/career-5.png',
     // alt: 'Volunteers taking part in a community cleanliness drive',
   },
 }
@@ -61,67 +66,67 @@ export const programImages = {
  */
 export const gallery = [
   {
-    src: '/images/gallery-01.jpg',
+    src: '/images/G-1.JPG',
     // alt: 'Career guidance session with school students',
-    caption: 'Career counselling session',
-    place: 'Bhopal',
-    tag: 'Education',
+    // caption: 'Career counselling session',
+    // place: 'Bhopal',
+    // tag: 'Education',
   },
   {
-    src: '/images/gallery-02.jpg',
+    src: '/images/G-2.JPG',
     // alt: 'A local football match organised for youth',
-    caption: 'Inter-village football match',
-    place: 'Seoni',
-    tag: 'Sports',
+    // caption: 'Inter-village football match',
+    // place: 'Seoni',
+    // tag: 'Sports',
   },
   {
-    src: '/images/gallery-03.jpg',
+    src: '/images/G-4.JPG',
     // alt: 'Students taking the Nasha Mukti pledge',
-    caption: 'Nasha Mukti pledge drive',
-    place: 'Sagar',
-    tag: 'Awareness',
+    // caption: 'Nasha Mukti pledge drive',
+    // place: 'Sagar',
+    // tag: 'Awareness',
   },
   {
-    src: '/images/gallery-04.jpg',
+    src: '/images/G-5.JPG',
     // alt: 'Volunteers during a padyatra through a town',
-    caption: 'Yuva Jagran padyatra',
-    place: 'Damoh',
-    tag: 'Community',
+    // caption: 'Yuva Jagran padyatra',
+    // place: 'Damoh',
+    // tag: 'Community',
   },
   {
-    src: '/images/gallery-05.jpg',
+    src: '/images/G-6.JPG',
     // alt: 'A technology demonstration for students',
-    caption: 'AI and technology exposure workshop',
-    place: 'Indore',
-    tag: 'Education',
+    // caption: 'AI and technology exposure workshop',
+    // place: 'Indore',
+    // tag: 'Education',
   },
   {
-    src: '/images/gallery-06.jpg',
+    src: '/images/G-7.jpeg',
     // alt: 'Volunteers distributing learning material',
-    caption: 'Learning material distribution',
-    place: 'Vidisha',
-    tag: 'Community',
+    // caption: 'Learning material distribution',
+    // place: 'Vidisha',
+    // tag: 'Community',
   },
   {
-    src: '/images/gallery-07.jpg',
+    src: 'public/images/G-8.jpeg',
     // alt: 'Girls taking part in an athletics event',
-    caption: 'Girls athletics meet',
-    place: 'Jabalpur',
-    tag: 'Sports',
+    // caption: 'Girls athletics meet',
+    // place: 'Jabalpur',
+    // tag: 'Sports',
   },
   {
-    src: '/images/gallery-08.jpg',
+    src: '/images/G-9.jpeg',
     // alt: 'Street play during an awareness campaign',
-    caption: 'Street play on substance awareness',
-    place: 'Chhatarpur',
-    tag: 'Awareness',
+    // caption: 'Street play on substance awareness',
+    // place: 'Chhatarpur',
+    // tag: 'Awareness',
   },
   {
-    src: '/images/gallery-09.jpg',
-    // alt: 'Mentor speaking to a group of students',
-    caption: 'Mentorship circle',
-    place: 'Gwalior',
-    tag: 'Education',
+    src: '/images/G-10.jpg',
+    // // alt: 'Mentor speaking to a group of students',
+    // caption: 'Mentorship circle',
+    // place: 'Gwalior',
+    // tag: 'Education',
   },
 ]
 
@@ -133,18 +138,18 @@ export const stories = [
     quote:
       'The counselling session was the first time anyone explained what comes after Class 12 in our block.',
     name: 'Student, Class 12',
-    place: 'Raisen district',
+    // place: 'Raisen district',
   },
   {
     quote:
       'Our ground had no equipment and no fixtures. Now there is a match every Sunday and the girls have their own team.',
     name: 'Local coordinator',
-    place: 'Balaghat district',
+    // place: 'Balaghat district',
   },
   {
     quote:
       'Sahyog filled the room, handled consent and brought the teachers along. We only had to teach.',
     name: 'Partner trainer',
-    place: 'Skilling workshop, Indore',
+    // place: 'Skilling workshop, Indore',
   },
 ]

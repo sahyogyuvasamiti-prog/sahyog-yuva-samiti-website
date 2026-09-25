@@ -47,7 +47,7 @@ export default function Home() {
             </motion.div>
 
             <motion.h1 variants={rise} className="display-xl mt-7 text-white">
-              Connecting youth with opportunity, healthy engagement and purpose
+              Connecting Young Minds, Creating Meaningful Futures
             </motion.h1>
 
             <motion.p variants={rise} className="lede mt-7 text-white/80">

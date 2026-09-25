@@ -44,7 +44,7 @@ export default function Contact() {
         eyebrow="Contact"
         title="Let us connect, collaborate and create meaningful opportunities for young people"
         lede="Whether you are a school, a company, a foundation or a volunteer — start here."
-        image={img.cta}
+        image={img.contact}
       />
 
       <section className="section">

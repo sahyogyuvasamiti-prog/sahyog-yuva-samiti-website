@@ -17,7 +17,7 @@ export default function About() {
         eyebrow="About us"
         title="A youth-focused, grassroots organization working across Madhya Pradesh"
         lede="Sahyog Yuva Samiti expands participation, awareness and opportunity for young people — through the people who already know them."
-        image={img.aboutMain}
+        image={img.aboutHero}
       />
 
       <section className="section">

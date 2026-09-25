@@ -11,7 +11,7 @@ export default function Logo({ className = 'h-11 w-11', showFallbackOnly = false
   if (!broken) {
     return (
       <img
-        src="/logo.png"
+        src="/images/logo.png"
         alt="Sahyog Yuva Samiti logo"
         className={`${className} object-contain`}
         onError={() => setBroken(true)}

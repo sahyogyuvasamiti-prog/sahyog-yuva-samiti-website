@@ -10,8 +10,8 @@ export const org = {
   registration: 'JJ-6043',
   state: 'Madhya Pradesh',
   country: 'India',
-  phone: '9302991155',
-  phoneHref: 'tel:+919302991155',
+  phone: '9301221207',
+  phoneHref: 'tel:+919301221207',
   email: 'sahyog.yuva.samiti@gmail.com',
   whatsapp: 'https://wa.me/919302991155',
   social: {
@@ -23,7 +23,7 @@ export const org = {
 
 export const hero = {
   eyebrow: 'Organizational profile',
-  title: 'Connecting youth with opportunity, healthy engagement and purpose',
+  title: 'Connecting Young Minds, Creating Meaningful Futures',
   subtitle:
     'A grassroots youth organization working across Madhya Pradesh — and a last-mile delivery partner for educational, technology, sports, skilling and social-impact organizations.',
   primaryCta: { label: 'Partner with us', to: '/partner' },
